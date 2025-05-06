@@ -9,5 +9,9 @@ td, th
 }
 
 td {
+    vertical-align: top;
+}
+
+td {
     vertical-align: bottom;
 }

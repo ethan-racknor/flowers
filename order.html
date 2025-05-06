@@ -6,8 +6,37 @@
         <title>Order</title>
 </head>
 <body>
-        Order Page
-        <a href="home.html">Home</a>
+        To place an order for any of our products, or to request our latest catalogue, complete the form below:<br>
+        <form align = "center">
+                Name
+                <input type="text" id="fname" name="fname"><br>
+                Email Address
+                <input type="text"><br>
+                Phone Number
+                <input type="text"><br>
+                Pot Name
+                <input type="text"><br>
+                Quantity
+                <input type="text" size="20"><br>
+                Location
+                <select name="Location">
+                        <option>ACT</option>
+                        <option>America</option>
+                        <option>Europe</option>
+                        <option>Asia</option>
+                </select><br>
+                Address
+                <textarea name="Address"></textarea><br>
+                Gardening Skill
+                <input type="radio" name="GSkill" value="Amateur" checked="checked">Amateur <input type="radio" name="GSkill" value="Hobbyist" >Hobbyist <input type="radio" name="GSkill" value="Professional" >Professional<br>
+                Would you like to:
+                <input type="checkbox" name = "REU">Recieve email updates
+                <input type="checkbox" name = "RAC">Recieve a catalog
+                <br>Comments
+                <textarea name="Comments"></textarea><br>
+                Submit Details<input type="submit">Reset<input type="reset">
+        </form>
+        <a href="index.html">Home</a>
                                 <a href="aboutus.html">About Us~</a>
                                 <a href="contact.html"> Contact Us~</a>
                                 <a href="gallery.html"> View the Gallery~</a>
